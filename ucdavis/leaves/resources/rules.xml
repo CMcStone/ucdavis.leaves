@@ -42,11 +42,11 @@
         <!-- Pull in content -->
     <copy content='//*[@id="portal-column-content"]' theme='//*[@id="wrapper-content"]' />
     <!-- Drop global navigation menu's class-->
-    <drop attributes="class" css:content="#portal-column-content"/>
+    <!--drop attributes="class" css:content="#portal-column-content"/-->
     <!-- Pull in column 1 -->
     <copy content='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
     <!-- Drop global navigation menu's class-->
-    <drop attributes="class" css:content="#portal-column-one"/>
+    <!--drop attributes="class" css:content="#portal-column-one"/-->
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
 	<append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' />
 
